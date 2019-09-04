@@ -1,0 +1,121 @@
+body {
+    background: url(../images/op.jpg) no-repeat center fixed;
+    font-size: 25px;
+    margin:30px;
+}
+a{
+    text-decoration: none;
+}
+a:active {
+    color: chartreuse;
+}
+a:hover {
+    color: rgb(161, 33, 33);
+    background-color: rgb(247, 247, 247);
+}
+a:visited {
+    color:rgb(0, 0, 0);
+}
+
+.container {
+    width: 225px ;
+    height: 400px;
+    background-color: rgba(140, 0, 255, 0.425);
+    border-radius: 10px;
+}
+.footer {
+    border-radius: 200px;
+    margin: 2px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.menu  {
+    border-radius: 40px;
+    background-color:rgba(105, 105, 190, 0.404);
+    margin:20px;
+    
+}
+.logo {
+    text-align: center;
+}
+.menu ul {
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 40px;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, 0.404),
+    0 6px 10px 0px rgba(0, 0, 0, 0.404),
+    0 1px 18px 0 rgba(0, 0, 0, 0.404);
+}
+.menu li {
+    display: inline-block;
+    border-right:1px solid;
+}
+.menu a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 10px;
+    letter-spacing: 5px;
+}
+.menu .a:hover {
+    background-color: aqua;
+    color:cornsilk;
+}
+.menu .active {
+    background-color: rgba(6, 53, 124, 0.616);
+    color: rgba(149, 116, 228, 0.678);
+}
+.menu  {
+    border-radius: 40px;
+    background-color:rgba(0, 0, 255, 0.404);
+    margin:10px;
+    
+}
+.logo {
+    text-align: center;
+}
+.jumbotron {
+    background-color: rgba(168, 140, 245, 0.308);
+    border-radius: 2px;
+    border:3px solid;
+    float: left;
+    padding: 2px;
+    margin: 90px;
+}
+.jumbotron h1 {
+    background-color: rgba(163, 131, 250, 0.137);
+    border:2px;
+    border-radius: solid;
+
+}
+.jumbotron-p{
+    background-color: rgba(168, 140, 245, 0.308);
+    border-radius: 2px;
+    border:3px solid;
+    float: left;
+    padding: 2px;
+    margin: 85px;
+}
+.copy-right {
+    font-size: 20px;
+    color: black;
+    float: left;
+}
+.footer-box {
+    width: 20,9% ;
+    float: left;
+    margin: 60px;
+}
+.back {
+    background-image: url(images/wallpaper1.jpg);
+    margin: 20px;
+    border-radius: 5px;
+}
+.beli {
+    background-color: rgba(162, 157, 177, 0);
+    border-radius: 5px;
+    float: center;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
